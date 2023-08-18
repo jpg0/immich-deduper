@@ -6193,6 +6193,9 @@
       },
       "SearchAlbumResponseDto": {
         "properties": {
+          "page": {
+            "type": "integer"
+          },
           "count": {
             "type": "integer"
           },
@@ -6233,6 +6236,9 @@
       },
       "SearchAssetResponseDto": {
         "properties": {
+          "page": {
+            "type": "integer"
+          },
           "count": {
             "type": "integer"
           },

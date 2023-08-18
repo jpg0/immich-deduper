@@ -90,6 +90,8 @@
                         <argument>--base-package</argument><argument>com.trillica</argument>
                         <argument>--api-file</argument><argument>immich-openapi-specs.json</argument>
                         <argument>--targets</argument><argument>client</argument>
+                        <argument>--targets</argument><argument>http_models</argument>
+
                     </arguments>
                 </configuration>
                 <dependencies>
@@ -152,6 +154,11 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
+            <version>2.14.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
             <version>2.14.1</version>
         </dependency>
         <dependency>
